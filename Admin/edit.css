@@ -1,0 +1,52 @@
+.edit-form{
+    display: flex;
+    margin: 15px;
+}
+
+form{
+    display: grid;
+    grid-gap: 10px;
+}
+
+.edit-name{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 90%;
+    align-items: center;
+}
+
+.submit{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+}
+.edit-role{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 15%;
+    align-items: center;
+}
+
+label{
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+input[type="text"], select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.editinfo-button{
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.editinfo-button:hover{
+    background-color: #45a049;
+}

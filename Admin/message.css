@@ -1,0 +1,50 @@
+.container-graph{
+    display: flex;
+    flex: 1;
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.message-head {
+    display: flex;
+    width: 30%;
+    margin: 20px 0px 15px 25px;
+}
+  
+h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.message-field{
+    display: flex;
+    margin-left: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; 
+    font-size: 28px;
+}
+  
+.message{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+  
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 5px #7c7c7c;
+}
+
+.message{
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}

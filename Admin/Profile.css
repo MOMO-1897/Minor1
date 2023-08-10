@@ -1,0 +1,46 @@
+.container-graph{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.admin-icon{
+    margin: 150px 0px 10px 60px;
+}
+
+.admin-list li{
+    list-style-type: none;
+}
+
+.admin-list-section{
+    display: flex;
+    padding: 100px 20px 30px 40px;
+}
+
+.admin-att{
+    margin: 90px;
+}
+
+.admin-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .admin-att {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .admin-att span {
+    min-width: 100px;
+    font-weight: bold;
+  }
+
+  .admin-att i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
